@@ -8,7 +8,7 @@ setup(name='CryptoPlus',
       author='Christophe Oosterlynck',
       author_email='tiftof@gmail.com',
       packages = find_packages('src'),
-      install_requires = ['pycrypto'],
+      install_requires = ['pycryptodome'],
       package_dir={'': 'src'}
      )
 
